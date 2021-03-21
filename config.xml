@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/XMLHttpRequestTest" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"></access>
+    <tizen:app-widget id="UYdNnEA6pX.XMLHttpRequestTest.Widget" primary="true">
+        <tizen:widget-label>Test Widget</tizen:widget-label>
+        <tizen:widget-content src="widget/Widget/index.html">
+            <tizen:widget-size preview="widget/Widget/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="UYdNnEA6pX.XMLHttpRequestTest" package="UYdNnEA6pX" required_version="2.3.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>XMLHttpRequestTest</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="wearable"/>
+</widget>
